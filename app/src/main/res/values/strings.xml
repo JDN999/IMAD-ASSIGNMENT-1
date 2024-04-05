@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IMAD Assignment1</string>
+    <string name="enter_your_age">Enter your age</string>
+    <string name="the_history_app">THE HISTORY APP</string>
+    <string name="match_age">Match Age</string>
+    <string name="enter_age">Enter age</string>
+    <string name="clear">Clear</string>
+    <string name="submit">Submit</string>
+    <string name="history_app">History App</string>
+</resources>

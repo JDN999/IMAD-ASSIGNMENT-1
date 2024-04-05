@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/napolean"
+    tools:ignore="ExtraText">
+
+
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/history_app"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"/>
+
+
+    <EditText
+        android:id="@+id/ageEditText"
+        android:layout_width="381dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/appNameTextView"
+        android:layout_marginTop="43dp"
+        android:autofillHints=""
+        android:hint="@string/enter_age"
+        android:inputType="number"
+        android:maxLength="3"
+        android:textColorHint="#BDBDBD" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ageEditText"
+        android:layout_marginTop="40dp"
+        android:text="@string/submit" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submitButton"
+        android:layout_marginTop="16dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resultTextView"
+        android:layout_marginTop="19dp"
+        android:text="@string/clear" />
+
+</RelativeLayout>
